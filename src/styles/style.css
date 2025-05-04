@@ -1,0 +1,17 @@
+h2 {
+    color: red;
+}
+h1 {
+    color: red;
+}
+h3 {
+    color: red;
+}
+body {
+    background-color:black
+}
+*{color: white;} 
+h1,h2,h3,h4 section,li,p{
+    font-style: oblique
+}
+a {text-decoration: none}

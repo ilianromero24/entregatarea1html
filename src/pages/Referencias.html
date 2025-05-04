@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="es-ARG">
 <head>
+    <meta name="title"  content="BLACKFIT">
+    <meta name="description"  content= "Pagina de Entrenamiento Personalizado premium de alto rendimiento">
+    <meta name="keywords"  content="rutina personalizada , entrenamiento, cambio fisico">
+    <meta name="robots"  content="index">
     <title>BLACKFITERS</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
     <section>    
             <a href="https://www.instagram.com/blackfit.24/" target="_blank">  
                 <img src="../assets/imagen/images.png" width="250" alt="">
             <h1>Internacional Personal Trainer</h1> </a>
-
-    <!-- 🙃 Las etiquetas no van en mayuscula 🙃-->
-
-    <MAin>
-        <H1>BLACKFITERS</H1>
+    <main>
+        <h1>BLACKFITERS</h1>
         <table>
                 <thead>
                         <tr>
@@ -20,7 +22,7 @@
                             <th> <img src="../assets/imagen/MATUTECOMPLETO.jpeg" width="250"></th>
                         </tr>
         </table>
-        <H2>Un poco mas...</H2>
+        <h2>Un poco mas...</h2>
         <table>
             <thead>
                 <tr>
@@ -43,30 +45,28 @@
                 <th> <img src="../assets/imagen/MAGALI 1RA COMPE ATRAS.jpeg" alt="" width="200"></th>
             </thead>
             </table>
-    </MAin>
+    </main>
+    <footer>
+        <h4>SOLICITUD DE CONTACTO</h4> 
+    
+        <form action="tu_script.php" method="POST">   <!--falta aprender a usar php y vincular la informacion de contenido
+            de los input-->
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+            <input type="date">
+            <button type="submit">Enviar</button> </form>
+            <textarea  name="deja tu comentario" placeholder="deja tu comentario"></textarea>
+            <p>
+                <h3> <a href="index.html">Regresar PAGINA PRINCIPAL</a> </h3>
+                </p>
+    <h4>Derechos inherentes al ejercicio profesional como Personal Trainer en la República Argentina y en los países federados a la IFBB.</h4>
+    <p>Numero de MATRICULA INTERNACIONAL:IFBB-C/48896 ,
+    M. NACIONAL:Nº:0002343</p>
+    </footer>
 </body>
 
-<!-- 😛 El footer no va fuera del body 😛 -->
-
-<footer>
-    <h4>SOLOCITUD DE CONTACTO</h4> 
-
-    <form action="tu_script.php" method="POST">   <!--falta aprender a usar php y vincular la informacion de contenido
-        de los input-->
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" placeholder="E-mail" required>
-        <label for="telefono">Teléfono</label>
-        <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
-        <input type="date">
-        <button type="submit">Enviar</button> </form>
-        <textarea  name="deja tu comentario" placeholder="deja tu comentario"></textarea>
-        <p>
-            <h3> <a href="index.html">Regresar PAGINA PRINCIPAL</a> </h3>
-            </p>
-<h4>Derechos inherentes al ejercicio profesional como Personal Trainer en la República Argentina y en los países federados a la IFBB.</h4>
-<P>Numero de MATRICULA INTERNACIONAL:IFBB-C/48896 ,
-M. NACIONAL:Nº:0002343</P>
-</footer>
 </html>
