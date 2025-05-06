@@ -1,3 +1,6 @@
+/* La redundancia de color: red se puede resolver de la misma forma
+    que resolviste la redundancia del font-style: oblique */
+
 h2 {
     color: red;
 }
